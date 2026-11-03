@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Efeito Químico · Fontes</title>
+<meta name="description" content="Cada afirmação dos vídeos do Efeito Químico, com a fonte que a sustenta.">
+<meta property="og:title" content="Efeito Químico · Fontes">
+<meta property="og:description" content="Cada afirmação dos vídeos, com a fonte que a sustenta.">
+<meta name="color-scheme" content="dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --fundo: #0B0D12; --brilho: #24155C; --cartao: #141824; --borda: #ffffff14;
+    --texto: #F5F7FF; --suave: #B8C0D4; --apagado: #7D869C;
+    --destaque: #FFD54A; --selo: #FF2E88; --energia: #22E5FF; --O: #FF3B47;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: "Montserrat", system-ui, sans-serif; color: var(--texto); line-height: 1.55;
+         background: radial-gradient(ellipse at 50% -10%, var(--brilho) 0%, var(--fundo) 55%) fixed, var(--fundo);
+         min-height: 100vh; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  a { color: var(--energia); }
+
+  header { text-align: center; margin-bottom: 40px; }
+  .marca { font-weight: 900; font-size: clamp(36px, 10vw, 54px); line-height: 1; letter-spacing: -1px;
+           text-transform: uppercase; }
+  .marca b { color: var(--destaque); text-shadow: 0 0 28px #FFD54A55; }
+  .lema { margin-top: 12px; color: var(--suave); font-weight: 500; }
+
+  nav { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 40px; }
+  nav a { text-decoration: none; color: var(--texto); font-weight: 700; font-size: 14px; padding: 8px 16px;
+          border-radius: 999px; background: var(--cartao); box-shadow: inset 0 0 0 1px var(--borda); }
+  nav a:hover { box-shadow: inset 0 0 0 1px var(--destaque); }
+
+  .video { margin-bottom: 56px; scroll-margin-top: 24px; }
+  .num { font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: var(--apagado); }
+  h2 { font-weight: 900; font-size: clamp(26px, 7vw, 34px); line-height: 1.1; text-transform: uppercase; margin: 6px 0 8px; }
+  h2 em { font-style: normal; color: var(--destaque); }
+  .data { color: var(--apagado); font-size: 14px; margin-bottom: 20px; }
+
+  .afirmacao { background: var(--cartao); border-radius: 16px; padding: 18px; margin-bottom: 12px;
+               box-shadow: inset 0 0 0 1px var(--borda); }
+  .fala { font-weight: 700; font-size: 17px; }
+  .fala::before { content: "No vídeo"; display: block; font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+                  color: var(--destaque); margin-bottom: 4px; }
+  .diz { color: var(--suave); font-size: 15px; margin-top: 10px; }
+  .ref { margin-top: 10px; font-size: 14px; }
+  .ref a { font-weight: 700; text-decoration: none; overflow-wrap: anywhere; }
+  .ref a:hover { text-decoration: underline; }
+  .ref span { color: var(--apagado); }
+  .limite { display: inline-block; margin-top: 10px; font-size: 13px; font-weight: 700; color: var(--O);
+            background: #FF3B4714; border-radius: 8px; padding: 4px 10px; }
+
+  .metodo { background: var(--cartao); border-radius: 16px; padding: 20px; box-shadow: inset 0 0 0 1px var(--borda); }
+  .metodo h3 { font-weight: 900; text-transform: uppercase; font-size: 18px; margin-bottom: 8px; }
+  .metodo p { color: var(--suave); font-size: 15px; }
+  .metodo p + p { margin-top: 10px; }
+  footer { margin-top: 40px; text-align: center; color: var(--apagado); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="marca">Efeito <b>Químico</b></div>
+    <p class="lema">Cada afirmação dos vídeos, com a fonte que a sustenta.</p>
+  </header>
+
+  <nav aria-label="Vídeos">
+    <a href="#cafeina">☕ Cafeína</a>
+    <a href="#como-checamos">Como checamos</a>
+  </nav>
+
+  <section class="video" id="cafeina">
+    <div class="num">Vídeo 1</div>
+    <h2>O que a cafeína faz no <em>seu corpo</em></h2>
+    <p class="data">Fontes conferidas em 02/11/2026</p>
+
+    <div class="afirmacao">
+      <p class="fala">"Em menos de uma hora, a cafeína passa do intestino para o sangue."</p>
+      <p class="diz">Cerca de 99% da cafeína é absorvida em 45 minutos; o pico no sangue vem entre 15 e 120 minutos depois de beber.</p>
+      <p class="ref"><a href="https://www.ncbi.nlm.nih.gov/books/NBK223808/" target="_blank" rel="noopener">Institute of Medicine (EUA), <i>Caffeine for the Sustainment of Mental Task Performance</i>, 2001, cap. 2</a> <span>· acesso livre</span></p>
+    </div>
+
+    <div class="afirmacao">
+      <p class="fala">"Acordado, você acumula adenosina. Ela encaixa nos neurônios e pisa no freio."</p>
+      <p class="diz">A adenosina no cérebro sobe durante a vigília, cai durante o sono e, aumentada, induz sono.</p>
+      <p class="ref"><a href="https://pubmed.ncbi.nlm.nih.gov/9157887/" target="_blank" rel="noopener">Porkka-Heiskanen et al., <i>Science</i>, 1997</a> <span>· resumo livre</span></p>
+      <span class="limite">Medido em gatos</span>
+    </div>
+
+    <div class="afirmacao">
+      <p class="fala">"A cafeína tem quase o mesmo formato. Ocupa o encaixe, mas não pisa no freio."</p>
+      <p class="diz">A cafeína é um antagonista dos receptores de adenosina A1 e A2A: ela se prende ao receptor sem ativá-lo, e é daí que vem o efeito estimulante.</p>
+      <p class="ref"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4846529/" target="_blank" rel="noopener">Ferré, <i>Psychopharmacology</i>, 2016</a> <span>· acesso livre</span></p>
+    </div>
+
+    <div class="afirmacao">
+      <p class="fala">A cafeína ocupando receptores no cérebro humano.</p>
+      <p class="diz">Num exame de imagem (PET), a cafeína ocupou de 5% a 44% dos receptores A1 do cérebro, conforme a dose.</p>
+      <p class="ref"><a href="https://jnm.snmjournals.org/content/53/11/1723" target="_blank" rel="noopener">Elmenhorst et al., <i>Journal of Nuclear Medicine</i>, 2012</a></p>
+    </div>
+
+    <div class="afirmacao">
+      <p class="fala">"Em umas cinco horas, metade já foi."</p>
+      <p class="diz">A meia-vida média é de cerca de 5 horas, mas vai de 1,5 a 9,5 horas conforme a pessoa. O fígado faz esse trabalho, principalmente com a enzima CYP1A2.</p>
+      <p class="ref"><a href="https://www.ncbi.nlm.nih.gov/books/NBK223808/" target="_blank" rel="noopener">Institute of Medicine (EUA), 2001, cap. 2</a> <span>· acesso livre</span></p>
+    </div>
+
+    <div class="afirmacao">
+      <p class="fala">"Quem toma todo dia faz o cérebro se adaptar, e o café rende cada vez menos."</p>
+      <p class="diz">Com cafeína todos os dias, o corpo criou tolerância quase total aos efeitos na pressão e na adrenalina em 1 a 4 dias.</p>
+      <p class="ref"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC370671/" target="_blank" rel="noopener">Robertson et al., <i>Journal of Clinical Investigation</i>, 1981</a> <span>· acesso livre</span></p>
+      <span class="limite">Mede o efeito no corpo, não o alerta</span>
+    </div>
+  </section>
+
+  <section class="metodo" id="como-checamos">
+    <h3>Como checamos</h3>
+    <p>Antes de gravar, cada frase do roteiro passa por uma revisão de fatos com fontes acadêmicas. Depois,
+      abrimos cada fonte para ver se ela diz o que o vídeo afirma.</p>
+    <p>Quando a ciência ainda não fechou uma questão, o vídeo simplifica sem afirmar, e a gente marca aqui o
+      limite da fonte. Achou um erro? Comenta no vídeo.</p>
+  </section>
+
+  <footer>Efeito Químico · vídeos de química em 3D</footer>
+</main>
+</body>
+</html>
